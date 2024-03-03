@@ -1,0 +1,128 @@
+*{
+  margin: 0px;
+  padding:0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.logo {
+  font-size: 20px;
+  padding-top: 5px;
+  padding-left: 30px;
+  text-transform: uppercase;
+}
+.logo1{
+   color: #e4be40;
+}
+.logo2{
+  color: black;
+}
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+.menu a {
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 1em 1em;
+  margin-top: 10px;
+}
+.row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-around;
+}
+.firstkahok{
+  text-align: center;
+  padding: 3em;
+  color: black;
+}
+.title1{
+  color: #e4be40;
+}
+.title3{
+  font-family: 'Bitter', serif;
+}
+body{
+  background-color:rgb(241, 238, 233);
+}
+form{
+  text-align: center;
+  margin-top: 40px;
+  margin-left: 33%;
+  width: 50%;
+  max-width: 500px;
+  height: 100%;
+  justify-content:space-evenly;
+}
+.input-group{
+  text-align: center;
+  margin-bottom: 35px;
+  position: relative;
+  margin-top: -15px;
+}
+input,textarea{
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  border: 1px solid rgb(96, 47, 4);
+  border-radius: 8px;
+  color: rgb(96, 47, 4);
+  background: transparent;
+  font-size: 17px;
+  cursor: pointer;  
+ }
+label{
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 5px;
+  color: rgb(96, 47, 4);
+  cursor: text;
+  transition: 0.2s;
+}
+button{
+  padding: 10px 0;
+  color:   rgb(96, 47, 4);
+  outline: none;
+  background: transparent;
+  border: 1px solid rgb(96, 47, 4);
+  border-radius: 8px;
+  width: 103%;
+  cursor: pointer;
+}
+button:hover{
+  color:#EEEEEE;
+  background-color: rgb(96, 47, 4);
+}
+input:valid~label{
+  top: -30px;
+  font-size: 14px;
+  color:  rgb(96, 47, 4);
+  text-align: center;
+}
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.row.input-group{
+  flex-basis: 48%;
+}
+.row2{
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+}
+.row2.input-group{
+  flex-basis: 48%;
+}  
+.checkdate{
+  top: -25px;
+}
